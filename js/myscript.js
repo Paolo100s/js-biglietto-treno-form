@@ -24,6 +24,13 @@ buttonConfirm.addEventListener("click",
         } else {
             totalPrice = price
         }
+
+        message = 
+        `
+        ${totalPrice.toFixed(2)} ${"Euro"}
+        `
+
+        buttonConfirm = document.getElementById("ticket").innerHTML = "Il prezzo del biglietto è " + message
     }
 
 )
@@ -35,10 +42,6 @@ buttonConfirm.addEventListener("click",
 
 
 // prezzo finale
-message = 
-`
-${totalPrice.toFixed(2)} ${"Euro"}
-`
+
 
 // output
-document.getElementById("biglietto").innerHTML = "Il prezzo del biglietto è " + message
