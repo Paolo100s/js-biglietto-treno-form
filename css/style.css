@@ -1,0 +1,22 @@
+/* Generali */
+body {
+    background-color: tomato;
+}
+
+h2 {
+    text-align: center;
+    color: darkslateblue;
+}
+
+#ticket_input {
+    border-radius: 20px;
+}
+
+/* DEBUG */
+/* .row {
+    border: 2px dashed green;
+}
+
+.col {
+    border: 1px solid blue;
+} */
