@@ -17,9 +17,9 @@ buttonConfirm.addEventListener("click",
         price = (km * priceKm);
 
         // eventuale sconto
-        if (age = "minorenne") {
+        if (age == "minorenne") {
             totalPrice = price - (price / 100 * 20);
-        } else if (age = "over65") {
+        } else if (age == "over65") {
             totalPrice = price - (price / 100 * 40);
         } else {
             totalPrice = price
